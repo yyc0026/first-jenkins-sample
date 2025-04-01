@@ -35,3 +35,16 @@ out/
 
 ### VS Code ###
 .vscode/
+
+
+
+echo "target/
+*.jar
+*.war
+*.class
+*.log
+.idea/
+.vscode/
+node_modules/
+.env
+" > .gitignore
